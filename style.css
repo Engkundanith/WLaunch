@@ -1,0 +1,359 @@
+                           /* Menu */
+
+
+ body{
+    margin: 0;
+    padding: 0;
+ 
+} 
+ .navbarhome ul {
+     width: 100%;
+    text-align: center;
+    padding: 0 ;
+    margin:  0;
+    background-color:#222222;
+    position: fixed;
+
+
+
+}
+
+.navbarhome li  {
+   display: inline-block; 
+ }
+
+
+.navbarhome a {
+    
+   float :right;
+  color: rgb(255, 255, 255);
+  padding : 20px 0px; 
+  margin: 15px;
+  display: block;
+  text-decoration: none;
+  font-family: 'Arial';
+  
+}
+
+.logo{
+   
+    color: white;
+    float: left ;
+    line-height: 90px;   
+    padding-left: 200px;
+    font-size: 20px;
+    font-family: 'Arial';
+
+} 
+
+.btn { 
+   
+    border:0;
+    line-height: 1;
+ 
+    border-radius: 30px;
+    background: #051DA6;
+    color: white;
+  
+    font-size: 20px;
+    text-align: center ;
+    padding: 20px 35px;
+float: right;
+    
+}
+
+.btn:hover ,
+.btn  :focus{
+    background-color: #041474;
+    color: white;
+}
+.btn  :active {
+    background-color:#051DA6;
+    color: white;
+    
+
+}
+
+
+                                         /* Image1 */
+
+
+.image{
+     width: 100%;
+    height:750px;
+   
+    background-image: url(nyc1.jpg)  ;
+    background-size: cover ;
+    background-position: center ; 
+    
+   
+} 
+
+ .imgtext {
+   
+
+    padding-top: 350px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-align: center; 
+    
+}   
+                                             /* About 1 */
+.about {
+     
+    width: 100%;
+  
+    background-color:white;
+    height: 650px;
+    margin: 0 auto;
+    
+ } 
+
+.about p {
+    text-align:center ;
+   width: 1000px;
+   margin: 0 ;
+   font-size: 40px;
+   padding: 100px; 
+   padding-top: 200px;
+   
+}
+.aboutbtn button {
+   
+
+    border: 1px  solid #838383;
+    line-height: 1;
+    padding: 20px 35px;
+    border-radius: 30px;  
+    background: white;
+    color: #051DA6;
+    margin: 0;
+    font-size: 20px;
+    
+}                      
+
+.aboutbtn  :hover ,
+.aboutbtn  :focus{
+    background-color: #051DA6;
+    color: white;
+}
+.aboutbtn  :active {
+    background-color:white;
+    color: #051DA6;
+    
+}
+
+
+                                         /* About 2 */
+.abouttwo {
+    background-color: #F6F8FA;
+    padding-bottom: 50px;
+
+}
+
+.abouttwo img{
+    width:400px;
+    height: 600px;
+    padding-top: 50px;
+
+}
+.abouttwo h1 {
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: 'Arial';
+    color: rgb(55, 56, 56);
+}
+.abouttwo th{
+    font-size: 20px;
+    text-align: left;
+    width:400px;
+    font-family: 'Corbel Light';
+}
+
+ .abouttwo p {
+ 
+    font-size:20px;
+    text-align: left;
+    
+    width:400px;
+    padding-bottom: 50px;
+    font-family: 'Corbel Light';
+    color: rgb(92, 92, 92);
+  
+
+} 
+
+
+ /* .abouttwopara p{
+    text-align: left;
+    font-size: 50px;
+  
+} */
+                                                /* About 3 */
+.aboutthree {
+    
+    background-color:white;
+    height: 350px;
+    width: 100%;
+    padding-bottom:100px;
+   
+} 
+.aboutthree h1{
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'Corbel Light';
+    
+    color: rgb(46, 44, 44);
+
+}
+                
+
+/* .aboutthreetext1 h1 {
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: 'Nirmala UI Semilight';
+
+} */
+
+
+.aboutthree th {
+    padding-top:  10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+.aboutthree p  {
+    text-align: left;
+    width: 350px;
+    font-size: 17px;
+    font-family: 'Corbel Light';
+    color: rgb(92, 92, 92);
+   
+
+}
+                                                /* Work img1 */
+
+
+.workimg1 {
+    width: 100%;
+    height:750px;
+   
+    background-image: url(nyc5.jpg) ;
+    background-size: cover ;
+    background-position: center center;
+    
+}
+.worktext  {
+    padding-top: 350px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-align: center; 
+ 
+   
+}
+/* .worktext {
+    text-align: center;
+    font-size: 70px;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+ */
+                                                   /* Work imag 2  */
+.workimg2 img{
+    width: 500px;
+    height: 450px;
+    border: 0;
+    margin: 0 auto;
+    
+}
+
+                                                /* All Test */
+
+
+.test {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    border: 0 ;
+}
+.test p{
+  
+    font-size: 40px;
+   
+    width: 1000px;
+    margin: 0 ;
+    padding: 100px; 
+}
+.testimg {
+    width: 100%;
+    height:610px;
+   
+    background-image: url(nyc6.jpg) ;
+    background-size: cover ;
+    background-position: center center;
+   
+}
+.testimgtext {
+    padding-top: 250px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-align: center; 
+    
+}
+
+                                                                /* social  */
+.social  {
+    background-color: #051DA6;
+    height: 200px;
+    margin-top: -20px;
+   text-align: center;
+   padding-top: 100px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+
+
+}
+
+.social2 {
+ 
+    height: 350px;
+    background-color: white;
+    
+    padding-left: 150px;
+    padding-top: 50px;
+  
+}
+.social2 h1{
+    font-family: 'Arial';
+    font-size: 20px;
+}
+.social2 input {
+    width: 200px;
+    height: 50px;
+    
+}
+input[type="submit"]
+{
+    width: 90px;
+    height: 50px;
+    background-color: #04198D;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    
+     
+}
+
+
+
+
